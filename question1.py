@@ -12,3 +12,8 @@ def maximize_profit(stock_prices):
                 sell_day = j + 1
 
     return buy_day, sell_day
+# Example usage
+stock_prices = [100, 180, 260, 310, 40, 535, 695]
+buy_day, sell_day = maximize_profit(stock_prices)
+print("Buy stock on day:", buy_day)
+print("Sell stock on day:", sell_day)
