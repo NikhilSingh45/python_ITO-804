@@ -17,3 +17,14 @@ low
  elif price < stock_prices[ticker][1]:
  stock_prices[ticker][1] = price # Update the low price
  return stock_prices
+# Example usage
+csv_file = 'stock_prices.csv'  # Replace with the actual file name or path
+stock_prices = calculate_high_low_prices(csv_file)
+
+# Print the highest and lowest prices for each stock
+for ticker, prices in stock_prices.items():
+    print("Ticker:", ticker)
+    print("Highest Price:", prices[0])
+    print("Lowest Price:", prices[1])
+    print("-" * 30)
+
