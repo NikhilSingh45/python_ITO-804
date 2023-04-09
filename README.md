@@ -17,6 +17,8 @@ Ques 3: Write a Python program that reads in a CSV file of stock prices (e.g. ti
 and lowest prices for each stock from following table: 
 ![image](https://user-images.githubusercontent.com/61160172/230786965-456865b1-16fb-4ee7-b02d-2bd387b74cc1.png)
 
-Ques 4: A) Write a Python program to remove duplicates from a list of lists. Sample list: [[10, 20], [40], [30, 56, 25], [10, 20], [33], [40]]
-Ques 4: (B): Write a Python program which takes a list and returns a list with the elements "shifted left by one position" so [1, 2, 3] yields [2, 3, 1]. 
+Ques 4: A) Write a Python program to remove duplicates from a list of lists. Sample list: [[10, 20], [40], [30, 56, 25], [10, 20], [33], [40]] 
+
+Ques 4: (B): Write a Python program which takes a list and returns a list with the elements "shifted left by one position" so [1, 2, 3] yields [2, 3, 1]
+
 Ques 4 (C) : Iterate a given list and count the occurrence of each element and create a dictionary to show the count of each element. 
